@@ -3,7 +3,7 @@ let employeeOne = {
     age: 24,
     salary: 40000,
     salaryHike(hike) {                      
-        this.salary += hike
+        this.salary += hike 
     }
 }
 
