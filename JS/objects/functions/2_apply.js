@@ -4,7 +4,7 @@ let employeeOne = {
     salary: 40000,
     salaryHike(hike) {                      
         this.salary += hike
-    }
+    } 
 }
 
 let employeeTwo = {
