@@ -47,7 +47,7 @@ let employeeTwo = {
 
 console.log(`before increment : ${employeeTwo.salary}`)    /* before  increment : 60000 */
 employeeOne.salaryHike.call(employeeTwo)
-console.log(`after  increment : ${employeeTwo.salary}`)    /* after   increment : 70000 */
+console.log(`after  increment : ${employeeTwo.salary}`)    /* after   increment : 70000 */ 
 
 //---------------------------------------------
 // making this DYNAMIC :
