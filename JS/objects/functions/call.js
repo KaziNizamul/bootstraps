@@ -66,5 +66,7 @@ let employeeTwo = {
     salary: 60000        
 }
 
+
+console.log(`before  increment : ${ employeeTwo.salary }`)      /* before  increment : 60000 */
 employeeOne.salaryHike.call(employeeTwo, 22)
-console.log(employeeTwo.salary)
+console.log(`after   increment : ${ employeeTwo.salary }`)      /* after   increment : 60022 */
