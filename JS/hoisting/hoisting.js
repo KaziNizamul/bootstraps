@@ -30,16 +30,16 @@ function getName() {
 
 
 /**
- *      so,          x  : undefined
- *             getName  : hey there!
+ *      so,       x  : undefined
+ *                getName  : hey there!
  * 
  * 
  *      CONCEPT : when you r in phase1 of execution context, the JS, will assign every variable as undefined
  *                and every function holds its full code. 
  *              
  *                Phase1 ->    
- *                                        x : undefined
- *                                   getName: full function
+ *                              x : undefined
+ *                              getName: full function
  *              
  *                Phase2 ->             
  *                           1. when you are at 2nd phase, at Line1 only, we are saying "console.log(x)"
