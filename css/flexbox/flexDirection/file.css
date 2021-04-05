@@ -1,0 +1,31 @@
+/* flex direction : row */
+.flex-direction-row {
+  display: flex;
+  flex-direction: row;
+  background-color: yellowgreen;
+}
+
+/* flex-direction: row-reverse  */
+.flex-direction-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: pink;
+}
+
+
+/* flex direction : column */
+.flex-direction-column{
+  display: flex;
+  flex-direction: column;
+  background-color: yellowgreen;
+}
+
+/* flex-direction: column-reverse  */
+.flex-direction-column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: pink;
+}
+
+
+
