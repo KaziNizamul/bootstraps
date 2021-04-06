@@ -1,0 +1,45 @@
+.style > div{
+    padding: 0.3cm;
+    border:1px dotted rgb(241, 241, 241)
+}
+
+/* flex-direction:row */
+.row-flex-start {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    background-color: darkkhaki;
+    height: 200px;
+}
+
+.row-flex-end {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    background-color: dimgrey;
+    height: 200px;
+}
+
+
+
+/* flex-direction:column */
+.column-flex-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    background-color: darkkhaki;
+    height: 200px;
+}
+
+.column-flex-end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    background-color: dimgrey;
+    height: 200px;
+}
+
