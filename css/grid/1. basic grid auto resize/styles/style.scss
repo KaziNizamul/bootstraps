@@ -1,0 +1,22 @@
+.basic-grid {
+  display: grid;
+  gap: 0.5rem;
+//   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+//   grid-template-columns: repeat(12, 1fr);    
+//   grid-template-columns: repeat(12, minmax(240px, 1fr) );    // overflows out, u need to scroll
+  grid-template-columns: repeat(auto-fit , minmax(120px, 1fr) );    
+
+
+
+  .card{
+    width: 100px;
+    height: 20px;
+    background-color: cadetblue;
+
+    &:hover {
+        background-color: rgb(143, 179, 180);
+    }
+  }  
+
+}
+
