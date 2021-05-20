@@ -11,6 +11,6 @@ function data() {
 
 // ----------------------
 
-var [first, , third, ...fourth] = data();
+var [first, , third, ...fourth] = data(); // ignored 2nd
 
 console.log(first, third, fourth);
