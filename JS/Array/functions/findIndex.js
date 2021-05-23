@@ -6,8 +6,8 @@ console.log(
 
 
 	arr.findIndex(function match(v) {            // callback func is being used
-		return v.a > 1;
-    })
+	return v.a > 1;
+    	})
     
 
 );
