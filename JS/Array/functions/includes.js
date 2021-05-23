@@ -8,7 +8,7 @@ console.log(
 
     // yeh, iss index pe h kya dekhna ...
     arr.includes(4, -2),
-    arr.includes(5,-1)
+    arr.includes(5,-1) 
     
 
 )
