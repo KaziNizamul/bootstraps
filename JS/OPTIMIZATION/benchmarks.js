@@ -1,3 +1,4 @@
+const { checkPrime } = require('crypto');
 const { performance, PerformanceObserver } = require('perf_hooks');
 
 
@@ -9,6 +10,9 @@ const b = 20;
 const add = (x, y) => x + y;
 
 performance.mark('start');  // start pivot 
+
+/* ---------------------- %NeverOptimizeFunction(add); ---------------------- */
+/* --------- this is to check, how much time it'll take without opt --------- */
 
 while (iterations--) {
     add(a, b);
