@@ -1,3 +1,44 @@
+/* -------------------------------------------------------------------------- */
+/*                                  EXAMPLE 1                                 */
+/* -------------------------------------------------------------------------- */
+
+// 1.garage table
+this.garage = {
+    table: "garage table"
+}
+
+// 2. johns Room's table
+let johnsRoom = {
+    table: "johns room table"
+}
+
+/**  predefined function          */
+function cleanTable(){
+    console.log(`cleaning ${this.table}`);
+}
+
+
+// using predefined function in johnsRoom
+cleanTable.call(this.garage);  // "cleaning garage table"
+cleanTable.call(johnsRoom);    // "cleaning johns room table"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------------------------------- */
+/*                                  EXAMPLE 2                                 */
+/* -------------------------------------------------------------------------- */
+
 let employeeOne = {
     name: 'John Doe',
     age: 24,
@@ -10,16 +51,6 @@ let employeeOne = {
 console.log(`before increment : ${employeeOne.salary}`)    /* before  increment : 40000 */
 employeeOne.salaryHike()
 console.log(`after  increment : ${employeeOne.salary}`)    /* after  increment : 50000  */
-
-
-
-
-
-
-
-
-
-
 
 
 
