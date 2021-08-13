@@ -7,6 +7,8 @@
 ```
 function a(){
     var b = 10;
+
+    c();
     function c() {
         console.log(b);
     }
@@ -47,3 +49,4 @@ if console.log(b) is done inside function c(), it will follow these:
    if found, ok, else
 3. find it, in its, lexical env of its parent, which is global exec context.
    if found, ok, else -> return null
+4. IMPORTANT : if at last null is encountered for 'global execution context" `ReferenceError: b is not defined` will come.
