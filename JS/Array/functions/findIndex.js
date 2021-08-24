@@ -20,3 +20,15 @@ console.log(
  *          return (v.a > 1)
  *      });
  */
+
+
+// ---------------------------------------------------------------------------------------------------------------------//
+// 						indexOf 								//
+// ---------------------------------------------------------------------------------------------------------------------//
+
+indexOf   : can be used when simple things(primitive) needs to be find ( arr.indexOf(-1) ) 
+findIndex : expects callback func (use it when things are not-primitive such as objects  )
+
+
+
+
