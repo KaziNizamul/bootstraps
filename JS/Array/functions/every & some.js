@@ -8,6 +8,9 @@
 
 
 
+[1,2,3].some(elem => (
+    elem >= 1
+))                          // true
 
 
 
