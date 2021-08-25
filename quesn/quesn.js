@@ -43,3 +43,6 @@ n. polyfills :
 5. [js] advancement of box while entering otp 
 
 6. [webpack] How webpack works internally.
+
+
+more resource to compile : https://soniapahuja75.medium.com/frontend-interview-in-paytm-2-4yrs-exp-1f9d47ce0e9f
