@@ -18,4 +18,13 @@ thats known as quirk mode.
 > inhi ko html entities kehte hai
 
 3. ##  
-IBquesn bank ka 6th quesn
+> IBquesn bank ka 6th quesn
+
+
+4. whats "multipart/form-data"  ?
+> ek form hai, aur uss form mein, file upload ka option hai,
+> tab, uss file ko POST ke through agar bhejna hai, toh `enctype` use krna pdega 
+> aur `enctype='multipart/form-data` encoding allows files to be sent through a POST.
+
+> `application/x-www-form-urlencoded:` This is the default. When the form is sent, all names and values of the form are collected 
+> phir unn pr `URL Encoding` is perform kiya jaata hai.
