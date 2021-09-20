@@ -48,5 +48,15 @@ thats known as quirk mode.
 
 <br> 
 
-6. 
+6. how you'll optimise asset loading  ? 
+
+  - CDN hosting: distribution of servers across globe 
+  - minify asset : deflate, gzip wagyra 
+  - minimize server calls by writing your code efficiently
+  - minify scripts and css :  JS ke liye :  closure-compiler & uglifyJS. css : csso & cssNano.  html : HTMLMinifier
+  - lazy loading of images 
+
+<br> 
+
+7. 
   
