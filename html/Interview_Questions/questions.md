@@ -61,4 +61,4 @@ thats known as quirk mode.
 7. strict doctype vs transitional vs frameset ?  [HTML4]
 - strict : This DTD contains all HTML elements and attributes, but does NOT INCLUDE ❌ presentational or deprecated elements (like font). Framesets are not allowed ❌
 - transitional : INCLUDE in above ✔ +  Framesets are not allowed ❌
-- frameset : its same as transitional, but allows frameset  ✔ (its a tag contains one or more frame elements. It is used to specify the number of rows and columns in frameset with their pixel of spaces )
+- frameset : INCLUDE in above ✔ +  Framesets are allowed ✔ (its a tag contains one or more frame elements. It is used to specify the number of rows and columns in frameset with their pixel of spaces )
