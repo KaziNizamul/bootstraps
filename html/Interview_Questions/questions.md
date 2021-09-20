@@ -12,3 +12,9 @@ browser, user jaisa likha hai,
 ussi ke hisaab se, render krke de deta h
 thats known as quirk mode.
 
+2. html entites : 
+> kuch characters reserved hote hai like : '<' '>' wagyra ,
+> toh inko webpage mein use krne ke liye, special type se likhte h like : '&lt' for '<' , '&gt' for '>' 
+> inhi ko html entities kehte hai
+
+3. 
