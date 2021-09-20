@@ -28,3 +28,25 @@ thats known as quirk mode.
 
 > `application/x-www-form-urlencoded:` This is the default. When the form is sent, all names and values of the form are collected 
 > phir unn pr `URL Encoding` is perform kiya jaata hai.
+
+
+<br>
+
+5. html layout structure  ? 
+  - header : starting info of page
+  - footer : copyrights etc
+  
+  - nav : nav links
+  
+  - article : set of info
+  
+  - aside : sidebar of page 
+  
+  - main : container
+  - section : container 
+
+
+<br> 
+
+6. 
+  
