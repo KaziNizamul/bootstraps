@@ -17,4 +17,5 @@ thats known as quirk mode.
 > toh inko webpage mein use krne ke liye, special type se likhte h like : '&lt' for '<' , '&gt' for '>' 
 > inhi ko html entities kehte hai
 
-3. 
+3. ##  
+IBquesn bank ka 6th quesn
