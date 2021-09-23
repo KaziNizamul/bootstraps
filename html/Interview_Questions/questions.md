@@ -17,11 +17,11 @@ thats known as quirk mode.
 > toh inko webpage mein use krne ke liye, special type se likhte h like : '&lt' for '<' , '&gt' for '>' 
 > inhi ko html entities kehte hai
 
-3. ##  
+3. ##   📌
 > IBquesn bank ka 6th quesn
 
 
-4. whats "multipart/form-data"  ?
+4. **whats "multipart/form-data"**  ?
 > ek form hai, aur uss form mein, file upload ka option hai,
 > tab, uss file ko POST ke through agar bhejna hai, toh `enctype` use krna pdega 
 > aur `enctype='multipart/form-data` encoding allows files to be sent through a POST.
@@ -32,7 +32,7 @@ thats known as quirk mode.
 
 <br>
 
-5. html layout structure  ? 
+5. **html layout structure**  ? 
   - header : starting info of page
   - footer : copyrights etc
   
@@ -48,7 +48,7 @@ thats known as quirk mode.
 
 <br> 
 
-6. how you'll optimise asset loading  ? 
+6. **how you'll optimise asset loading**  ? 
 
   - CDN hosting: distribution of servers across globe 
   - minify asset : deflate, gzip wagyra 
@@ -58,7 +58,33 @@ thats known as quirk mode.
 
 <br> 
 
-7. strict doctype vs transitional vs frameset ?  [HTML4]
+7. **strict doctype vs transitional vs frameset ?**  [HTML4]
 - strict : This DTD contains all HTML elements and attributes, but does NOT INCLUDE ❌ presentational or deprecated elements (like font). Framesets are not allowed ❌
 - transitional : INCLUDE in above ✔ +  Framesets are not allowed ❌
 - frameset : INCLUDE in above ✔ +  Framesets are allowed ✔ (its a tag contains one or more frame elements. It is used to specify the number of rows and columns in frameset with their pixel of spaces )
+- ![](/bootstrapsImages/frameset.jpg)
+
+<br>
+
+8. **can we display a web page inside a web page or Is nesting of webpages possible?**
+Yes, we can display a web page inside another HTML web page. HTML provides a tag `<iframe>` using which we can achieve this functionality.
+
+- `<iframe src=”url of the web page to embed” />`
+<br>
+
+
+9. **charset :** 
+- web browser ko explicitly bolna pdhta hai ki, 
+iss character set ko use kro.
+
+- `<meta charset='UTF-8'>`
+<br>
+
+9. **cellpadding vs cellspacing** :
+- ![](/bootstrapsImages/cellpaddingvscellspacing.jpg)
+
+10. **rowspan colspan :**
+- ![](/bootstrapsImages/rowspancolspan.jpg)
+
+11. ##  📌
+> IBquesn bank ka 21st quesn
