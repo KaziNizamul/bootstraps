@@ -26,4 +26,26 @@
     myfunc(1, 2, 3) 
 
     
-2. 
+2.[arrow] :
+    function myRegularFunction() {
+        const myArrowFunction = () => {
+            console.log(arguments);     // logs { 0: 'a', 1: 'b', length: 2 } ????????? whyyyyy??? 
+        }
+        myArrowFunction('c', 'd');
+    }
+    
+    myRegularFunction('a', 'b');
+
+    CONCEPT : they have access to the arguments object of the closest non-arrow parent function.
+
+
+
+
+    `How to fix this and print arrow's arguments  ?` : use rest parameter feature 
+    function myRegularFunction() {
+        const myArrowFunction = (...args) => {
+          console.log(args);         // logs ['c', 'd']
+        }
+        myArrowFunction('c', 'd');
+    }
+    myRegularFunction('a', 'b'); 
