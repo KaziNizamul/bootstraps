@@ -36,7 +36,7 @@
     
     myRegularFunction('a', 'b');
 
-    CONCEPT : they have access to the arguments object of the closest non-arrow parent function.
+    CONCEPT : `they have access to the arguments object of the closest non-arrow parent function.`
 
 
 
