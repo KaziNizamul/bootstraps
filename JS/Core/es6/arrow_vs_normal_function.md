@@ -1,5 +1,5 @@
  
-#####1. syntax : 
+####1. syntax : 
 >*  normal function :  var add = function(x, y) {
                                      return x + y;
                        };
