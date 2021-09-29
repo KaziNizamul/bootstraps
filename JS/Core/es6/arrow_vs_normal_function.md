@@ -13,7 +13,8 @@
 
 <br>
 <br>
-#####2. argument binding : 
+
+**2. argument binding :** 
 
 
 >1. function myfunc() {
@@ -50,7 +51,8 @@ myRegularFunction('a', 'b');
 
 <br>
 <br>
-#####3. this :
+
+**3. this :**
 
 ![](/bootstrapsImages/arrow_this1.jpg)
 ![](/bootstrapsImages/arrow_this2.jpg)
@@ -59,7 +61,7 @@ myRegularFunction('a', 'b');
 
 <br>
 
-#####4. constructor :  
+**4. constructor :**  
 > yaha koi dikkat nai
 ![](/bootstrapsImages/arrow_constructor1.jpg)
 > pr, `this` lexically solve hota hai, arrow func mein, so, 
@@ -68,5 +70,6 @@ myRegularFunction('a', 'b');
     
 <br>
 <br>
-#####5. return : 
+
+**5. return :** 
 > arrow mein implicit return hota hai.
