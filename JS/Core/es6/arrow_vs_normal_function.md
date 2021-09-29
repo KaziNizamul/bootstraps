@@ -62,8 +62,10 @@ myRegularFunction('a', 'b');
 <br>
 
 **4. constructor :**  
+
 > yaha koi dikkat nai
 ![](/bootstrapsImages/arrow_constructor1.jpg)
+
 > pr, `this` lexically solve hota hai, arrow func mein, so, 
 ![](/bootstrapsImages/arrow_constructor2.jpg)
 
