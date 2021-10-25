@@ -92,8 +92,9 @@ iss character set ko use kro.
 
 <br>
 
-> none (n) for nahi 
+> none (n) for nahi
 > hidden (h) for hai 
 
 > so, display:none means - dom mein rhega + space nahi lega 
 > visibility:hidden means - dom mein nahi rhega + space lega 
+![](/bootstrapsImages/displaynone.jpg)
