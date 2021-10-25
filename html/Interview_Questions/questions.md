@@ -86,5 +86,14 @@ iss character set ko use kro.
 10. **rowspan colspan :**
 - ![](/bootstrapsImages/rowspancolspan.jpg)
 
-11. ##  📌
-> IBquesn bank ka 21st quesn
+11. display :none vs visibility:hidden 
+> d for display 
+> d for dom 
+
+<br>
+
+> none (n) for nahi 
+> hidden (h) for hai 
+
+> so, display:none means - dom mein rhega + space nahi lega 
+> visibility:hidden means - dom mein nahi rhega + space lega 
