@@ -80,13 +80,13 @@ iss character set ko use kro.
 - `<meta charset='UTF-8'>`
 <br>
 
-9. **cellpadding vs cellspacing** :
+10. **cellpadding vs cellspacing** :
 - ![](/bootstrapsImages/cellpaddingvscellspacing.jpg)
 
-10. **rowspan colspan :**
+11. **rowspan colspan :**
 - ![](/bootstrapsImages/rowspancolspan.jpg)
 
-11. display :none vs visibility:hidden 
+12. **display :none vs visibility:hidden :**
 > d for display 
 > d for dom 
 
@@ -98,3 +98,87 @@ iss character set ko use kro.
 > so, display:none means - dom mein rhega + space nahi lega 
 > visibility:hidden means - dom mein nahi rhega + space lega 
 ![](/bootstrapsImages/displaynone.jpg)
+
+
+13. **How to specify the link in HTML and explain the target attribute ?**
+> <a href="http://www.google.com" target="_blank">Google</a>
+> _blank : opens in a new window 
+> _self : opens in the same window where it was clicked
+> _parent : opens in the parent frame
+> _top : opens in the full body of the window
+
+
+14. **link vs anchor :** 
+> link : 
+1. contains relationship with another doc `(eg: <link rel="stylesheet" href="styles.css">)`
+2. used in head section
+
+> anchor :
+1. specifies that this is clickable link
+2. used in body 
+
+<br>
+
+15. **How to include javascript code in HTML?**
+> by using `<script>` tag
+
+<br>
+
+16.  **When to use scripts in the head and**
+**when to use scripts in the body ?**
+> head : library scripts eg: bootstrap, loadash etc 
+> body : if js is rendering something in page, then place that in body 
+
+17. ##  📌 IB Q 31.
+<br>
+
+
+18. **audio tag :**
+<audio controls>
+  <source src="horse.mp3" type="audio/ogg"> browser does not support the audio
+</audio>
+
+<br>
+
+19. **video tag :**
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4"> browser does not support the video
+</video>
+
+<br>
+<br>
+
+20. **figure tag :**
+> image ka container hai yeh basically.
+`<figure>`
+    .. . .`<img src="/media/cc0-images/elephant-660-480.jpg"`>
+    . . . `<figcaption>An elephant at sunset</figcaption>`
+`</figure>`
+
+> **img tag :** bas image display krne ke liye.
+<br>
+
+
+21. **specify metadata :** 
+![](/bootstrapsImages/metadata.jpg)
+
+<br>
+
+22. **datalist &select :**
+![](/bootstrapsImages/datalist.jpg)
+<br>
+![](/bootstrapsImages/select.jpg)
+
+23. **image map :**
+
+`<img src="workplace.jpg" alt="workplace" usemap="#workmap" width="200" height="200">`
+
+`<map name="workmap">`
+  ` .   ..  <area shape="rect"` `coords="10,20,180,190" alt="computer" ......href="computer.htm">`
+`</map>`
+
+<br>
+
+24. **semantic elem :**
+Semantic elements are those which describe the particular meaning to the browser
+
