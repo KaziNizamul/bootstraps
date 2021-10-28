@@ -6,5 +6,5 @@ function binary(x){
 
 
 console.log(  
-      arr.map(binary)  // ['1', '10','111']
+      arr.map(binary)  // ['1', '10','11']
 )
