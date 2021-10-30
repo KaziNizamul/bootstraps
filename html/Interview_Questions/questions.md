@@ -190,4 +190,12 @@ iss character set ko use kro.
 
 26. **how to navigate in the same page using anchor tag ?**
 ![](/bootstrapsImages/navigatesamepage.jpg)
-> 
+<br>
+
+27. **drag and drop :**
+> 📌 IB Q 41
+<br>
+
+28. **canvas svg :**
+![](/bootstrapsImages/canvas.jpg)
+![](/bootstrapsImages/svg.jpg)
