@@ -167,6 +167,7 @@ iss character set ko use kro.
 22. **datalist &select :**
 ![](/bootstrapsImages/datalist.jpg)
 <br>
+
 ![](/bootstrapsImages/select.jpg)
 
 23. **image map :**
@@ -196,6 +197,15 @@ iss character set ko use kro.
 > 📌 IB Q 41
 <br>
 
-28. **canvas svg :**
+28. HTML GRAPHICS -  **canvas svg :**
 ![](/bootstrapsImages/canvas.jpg)
 ![](/bootstrapsImages/svg.jpg)
+<br>
+
+29. **microdata :**
+> extract data for web crawler and search engines.
+> some tags we use to mention in meta tags 
+> like: itemid, itemprop, itemscope, itemtype
+<br>
+
+30. 
