@@ -198,6 +198,9 @@ iss character set ko use kro.
 <br>
 
 28. HTML GRAPHICS -  **canvas svg :**
+> used to draw graphics on a web page.
+> The <canvas> element is only a container for graphics. 
+> You must use JavaScript to actually draw the graphics.
 ![](/bootstrapsImages/canvas.jpg)
 ![](/bootstrapsImages/svg.jpg)
 <br>
