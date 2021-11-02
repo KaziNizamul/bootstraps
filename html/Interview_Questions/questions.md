@@ -134,16 +134,18 @@ iss character set ko use kro.
 
 
 18. **audio tag :**
-<audio controls>
+``` <audio controls>
   <source src="horse.mp3" type="audio/ogg"> browser does not support the audio
 </audio>
-
+``` 
 <br>
 
 19. **video tag :**
+```
 <video width="320" height="240" controls>
   <source src="movie.mp4" type="video/mp4"> browser does not support the video
 </video>
+```
 
 <br>
 <br>
