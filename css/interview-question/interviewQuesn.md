@@ -37,3 +37,5 @@
 
 6. **What does the :root means ?**
 > allows you to target the highest-level “parent” element in the DOM,
+<br>
+

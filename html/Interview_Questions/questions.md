@@ -211,4 +211,8 @@ iss character set ko use kro.
 > like: itemid, itemprop, itemscope, itemtype
 <br>
 
-30. 
+30. **box sizing :**
+![](/bootstrapsImages/boxsizing.png)
+
+
+
