@@ -188,9 +188,12 @@ iss character set ko use kro.
 <br>
 
 25. **meter element :**
-> <meter id="disk_c" value="4" min="2" max="10">2 out of 10</meter><br>
-> <meter id="disk_d" value="0.6">60%</meter>
+```
+<meter id="disk_c" value="4" min="2" max="10">2 out of 10</meter><br>
+<meter id="disk_d" value="0.6">60%</meter>
+```
 <br>
+
 
 26. **how to navigate in the same page using anchor tag ?**
 ![](/bootstrapsImages/navigatesamepage.jpg)
