@@ -18,7 +18,7 @@ const copyOfEmployee = JSON.parse(JSON.stringify(employee)); // ✅
 
 
 // ----------------------------- WAY 2 ---------------------
-let friend = Object.assign({}, me) // ✅
+let copyOfEmployee = Object.assign({}, employee) // ✅
 
 
 
