@@ -13,24 +13,28 @@ const employee = {
 
 
 
-// ----------------------------- WAY 1 ---------------------
+// ----------------- WAY 1 : JSON.stringify ---------------------
 const copyOfEmployee = JSON.parse(JSON.stringify(employee)); // ✅
 
 
-// ----------------------------- WAY 2 ---------------------
-let copyOfEmployee = Object.assign({}, employee) // ✅
+// ----------------- WAY 2 : Object.assign -----------------------
+let copyOfEmployee = Object.assign({}, employee)             // ✅
+
+
+// ----------------- WAY 3 : spread operator ---------------------
+let copyOfEmployee = { ...employee }                         // ✅
 
 
 
 
 
 
+copyOfEmployee.age=99;
 
 
-
-
-console.log(employee, 'employee');
+console.log({copyOfEmployee, employee});
 /*
 { name: 'Siddharth', age: 35 } employee
+{ name: 'Siddharth', age: 99 } copyOfEmployee
 */
 
