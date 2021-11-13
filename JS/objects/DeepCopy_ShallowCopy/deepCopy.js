@@ -29,7 +29,7 @@ let copyOfEmployee = { ...employee }                         // ✅
 
 
 
-copyOfEmployee.age=99;
+copyOfEmployee.age = 99;
 
 
 console.log({copyOfEmployee, employee});
