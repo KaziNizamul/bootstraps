@@ -10,7 +10,23 @@ const employee = {
 
 
 // const copyOfEmployee = employee;  ❌🤷‍♀️
+
+
+
+// ----------------------------- WAY 1 ---------------------
 const copyOfEmployee = JSON.parse(JSON.stringify(employee)); // ✅
+
+
+// ----------------------------- WAY 2 ---------------------
+let friend = Object.assign({}, me) // ✅
+
+
+
+
+
+
+
+
 
 
 console.log(employee, 'employee');
