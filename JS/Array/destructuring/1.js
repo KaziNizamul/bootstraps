@@ -13,9 +13,9 @@ function data() {
 
 // ----------------------
 
-var [first, , third, ...fourth] = data(); // ignored 2nd
+var [first, , third, ...fourth] = data();     // ignored 2nd
 
-console.log(first, third, fourth);
+console.log(first, third, fourth);            //  1, 3, [9, 8, 7, 6]
 
 
 
@@ -25,4 +25,4 @@ console.log(first, third, fourth);
 let arr = [1,2,3, [4,5]]
 let [a,,c,[d,e]] = arr
 
-console.log({a,c,d,e})    // {a: 1, c: 3, d: 4, e: 5}
+console.log({a,c,d,e})                       // {a: 1, c: 3, d: 4, e: 5}
