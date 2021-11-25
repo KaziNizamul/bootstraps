@@ -228,8 +228,11 @@ iss character set ko use kro.
   <br>
   
 **normal** : jaise hi encounter hua koi script tag,
+  <br>
 agar woh external hai : toh, download kro aur exec kro
+  <br>
 agar internal script hai: toh exec kro.
+  <br>
 then continue karo apna html parsing.
   
   <br>
