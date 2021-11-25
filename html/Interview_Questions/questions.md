@@ -220,5 +220,29 @@ iss character set ko use kro.
 30. **box sizing :**
 ![](/bootstrapsImages/boxsizing.png)
 
+<br>
+
+31. **async defer :**
+> ![](/bootstrapsImages/async-defer.jpg)
+**normal** : jaise hi encounter hua koi script tag,
+agar woh external hai : toh, download kro aur exec kro
+agar internal script hai: toh exec kro.
+then continue karo apna html parsing.
+**async** : 
+network script hua, toh, asyncly download hoyega,
+aur jaise hi download hua, 
+phir, EXEC karo turrant,
+then continue karo apna html parsing 
+**defer** : 
+HTML PEHLE.
+html parsing chalte rahengi, chahe kuch bhi ho jaaye,
+chahe scripts download hoke available kyu hi na baithe ho..
+JAB html parsing khtm hoyega,
+TABHII scripts exec hoyega.
+**USAGE :**
+async for: external scripts
+defer for: internal scripts
+
+
 
 
