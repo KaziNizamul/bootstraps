@@ -253,7 +253,8 @@ TABHII scripts exec hoyega. <br>
   <br>
   
 **USAGE :**
-async for: external scripts
+  <br>
+async for: external scripts <br>
 defer for: internal scripts
 
 
