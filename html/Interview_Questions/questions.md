@@ -224,21 +224,34 @@ iss character set ko use kro.
 
 31. **async defer :**
 > ![](/bootstrapsImages/async-defer.jpg)
+  
+  <br>
+  
 **normal** : jaise hi encounter hua koi script tag,
+  <br>
 agar woh external hai : toh, download kro aur exec kro
+  <br>
 agar internal script hai: toh exec kro.
+  <br>
 then continue karo apna html parsing.
+  
+  <br>
+  
 **async** : 
-network script hua, toh, asyncly download hoyega,
-aur jaise hi download hua, 
-phir, EXEC karo turrant,
-then continue karo apna html parsing 
+network script hua, toh, asyncly download hoyega, <br>
+aur jaise hi download hua, <br>
+phir, EXEC karo turrant,<br>
+then continue karo apna html parsing <br>
+  
 **defer** : 
-HTML PEHLE.
-html parsing chalte rahengi, chahe kuch bhi ho jaaye,
-chahe scripts download hoke available kyu hi na baithe ho..
-JAB html parsing khtm hoyega,
-TABHII scripts exec hoyega.
+HTML PEHLE. <br>
+html parsing chalte rahengi, chahe kuch bhi ho jaaye, <br>
+chahe scripts download hoke available kyu hi na baithe ho.. <br>
+JAB html parsing khtm hoyega, <br>
+TABHII scripts exec hoyega. <br>
+  
+  <br>
+  
 **USAGE :**
 async for: external scripts
 defer for: internal scripts
