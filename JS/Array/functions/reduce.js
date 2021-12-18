@@ -33,4 +33,6 @@ const output = users.reduce(function(acc, curr){
       return acc
 }, {})
 
+// SHORT METHOD : acc[curr.age] = (acc[curr.age] || 0) +1
+
 console.log(output) // {30:2, 31:1}
