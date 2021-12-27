@@ -75,3 +75,25 @@ function DashBoard() {
 }
 
 ```
+
+--- 
+<br>
+<center><strong> 0. pass data to another component using `Link` </strong></center>
+
+```JS
+  <Link to="/dashboard" state={'Django'}> pass from here </Link>
+```
+
+
+```JS
+function DashBoard() {
+  const location = useLocation(); // <=-------------
+
+  return (
+    <div>
+      <h5>Price of the course : {location.state}</h5>  // <=------
+    </div>
+  );
+}
+
+```
