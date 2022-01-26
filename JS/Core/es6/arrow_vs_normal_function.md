@@ -69,6 +69,7 @@ myRegularFunction('a', 'b');
 > pr, `this` lexically solve hota hai, arrow func mein, so, 
 ![](/bootstrapsImages/arrow_constructor2.jpg)
 
+REASON : arrow ko contructor function ke liye use nhi kr skte
     
 <br>
 <br>
