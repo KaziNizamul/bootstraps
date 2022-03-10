@@ -32,7 +32,7 @@
 <fieldset>
     <legend> cart.controller.js </legend>
 
-    
+
 
          class CartController extends Component {
              render(){
@@ -62,6 +62,7 @@
 
 - react-redux provides us **Provider** 
 to connect whole application with redux
+and make store available for us
 
 <fieldset>
     <legend> app.js </legend>
