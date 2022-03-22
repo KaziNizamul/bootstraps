@@ -76,7 +76,7 @@ this will slow down the app.
     /* again it will re-render the whole component, again and again.
     so better use the above one, the anonym arrow function method 
     coz its called only once, while component gets initialised.*/
-    ```
+```
 
 </br>
 <hr> </br> </br>
