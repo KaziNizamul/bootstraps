@@ -30,53 +30,53 @@ the state only gets evaluated `once`.
 reason : constructor ko toh ekhi baar visit krega na execution. 
 </br>
 
-    but,
-    in `function component`, the expression like:
-    
-    ```JS
-        const [count, setCount] = useState(4);
-    ```
-    this "4" will get called, 
-    every single time, we run our functions like 
-    `decrementFunction` `incrementFunction`.
+but,
+in `function component`, the expression like:
 
-    if something like really computing function is being passed inside useState like: 
-    ```JS
-        const [count, setCount] = useState(fibonacci);
-    ```
-    this will slow down the app.
+```JS
+    const [count, setCount] = useState(4);
+```
+this "4" will get called, 
+every single time, we run our functions like 
+`decrementFunction` `incrementFunction`.
 
-    </br></br></br>
+if something like really computing function is being passed inside useState like: 
+```JS
+    const [count, setCount] = useState(fibonacci);
+```
+this will slow down the app.
 
-    - solution for it is :
-    ```JS
-        const [count, setCount] = useState(()=>{
-            console.log('run function');
-            return 4;
-        });
-            
-            
+</br></br></br>
 
-        /* passing a function like this in useState.
-        This will run only once when component will gets render. */
-    ```
+- solution for it is :
+```JS
+    const [count, setCount] = useState(()=>{
+        console.log('run function');
+        return 4;
+    });
 
 
-    </br>
-    
-    - if we accidently pass something like :
-    ```JS
-        function fibo(){
-            console.log('fibo');
-            return 4;
-        }
 
-        const [count, setCount] = useState(fibo);
+    /* passing a function like this in useState.
+    This will run only once when component will gets render. */
+```
 
-        /* again it will re-render the whole component, again and again.
-        so better use the above one, the anonym arrow function method 
-        coz its called only once, while component gets initialised.*/
-    ```
+
+</br>
+
+- if we accidently pass something like :
+```JS
+    function fibo(){
+        console.log('fibo');
+        return 4;
+    }
+
+    const [count, setCount] = useState(fibo);
+
+    /* again it will re-render the whole component, again and again.
+    so better use the above one, the anonym arrow function method 
+    coz its called only once, while component gets initialised.*/
+```
 
 </br>
 <hr> </br> </br>
