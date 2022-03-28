@@ -7,7 +7,7 @@
 
 - #### How it works: 
 
-    ![](/bootstrapsImages/usestate1.png)
+    ![](/bootstrapsImages/usestate1.png)     
     - useState hook will return two things.
     - one is `current state`, another is `a function that will allow is to change the current state.` 
 
