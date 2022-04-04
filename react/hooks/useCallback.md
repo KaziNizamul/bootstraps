@@ -1,7 +1,7 @@
 - ###### same as useMemo 
 
 diiference is : 
-    in useMemo : we return the calc of that line.
-    in useCallback : entire arrow function use to get return.
+    useMemo: Returns and stores the calculated value of a function in a variable
+    useCallBack: Returns and stores the actual function itself in a variable
 
 otherwise otherlogic like, it will get recalc only only deps changes etc are same as useMemo
