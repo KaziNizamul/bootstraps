@@ -27,7 +27,7 @@
     $font-weights : ("regular" : 400, "medium" : 500, "bold" : 700)
 
 
-    @function weight(name){
+    @function weight($name){
         @return map-get($font-weights, $name);
     }
 
