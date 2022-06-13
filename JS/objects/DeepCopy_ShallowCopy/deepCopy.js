@@ -25,6 +25,9 @@ let copyOfEmployee = Object.assign({}, employee)             // ✅
 let copyOfEmployee = { ...employee }                         // ✅
 
 
+// ----------------- WAY 4 : structuredClone ---------------------
+let copyOfEmployee = structuredClone(employee)               // ✅
+
 
 
 
