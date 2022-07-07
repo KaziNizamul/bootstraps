@@ -12,7 +12,7 @@
 /* -------------------------- STEP 1.1 Conversion : ------------------------- */
 /* ---------------------- convert each obj to stringify --------------------- */
 
-let strObj = arr.map(JSON.stringify);
+let strObj = arr.map(elem => JSON.stringify(elem));
 
 
 
